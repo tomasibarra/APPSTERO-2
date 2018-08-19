@@ -1,0 +1,43 @@
+	body {
+	font-family:serif;
+	color: #333
+	font-size: 1.2rem;
+	line-height: 1.4em;
+	margin: 0;
+	padding: 0;
+	}
+
+
+	nav {
+	position: relative;
+	float: left;
+	text-align: center;
+	width: 100%;
+	overflow: hidden;
+	left: 0;
+	}
+
+	nav ul {
+	position: fixed;
+	margin:0;
+	padding: 0;
+	list-style: none;
+	}
+
+
+	nav ul li a {
+	margin: 30px 5px 5px 5px;
+	padding: 0.5rem 1rem;
+	transition: all 0.4s linear;
+	border-radius: 5px;
+	text-decoration: blink;
+	display: flex;
+	font-size: 30px;
+	text-transform: uppercase;
+	color: 000000;
+	}
+
+
+  nav ul li a:hover {
+  background: #4a4a4a;
+  }
